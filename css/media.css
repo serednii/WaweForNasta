@@ -1,0 +1,441 @@
+/* ----------media 1220 ---------- */
+
+@media (max-width: 1220px) {
+
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* ---title------ */
+
+
+  /* ---header----- */
+  .header__menu {
+    max-width: 82%;
+  }
+
+  /* ---about------ */
+  .about {
+    padding: calc(100vw * 0.1) 0 calc(100vw * 0.1);
+  }
+
+  /* ---get-------- */
+
+  .get__item {
+    max-width: 300px;
+  }
+
+  .get__advantages {
+    max-width: 500px;
+  }
+
+  /* ---serfing---- */
+
+  .serfing__title {
+    text-align: center;
+  }
+
+  .serfing__text p {
+    max-width: 100%;
+  }
+
+  .serfing__inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .serfing__foto {
+    display: none;
+  }
+
+}
+
+/* ----------media 1024 ---------- */
+
+@media (max-width: 1024px) {
+
+  /* ---title------ */
+
+  .title {
+    font-size: 30px;
+  }
+
+  .title::after {
+    content: none;
+  }
+
+  /* ---header----- */
+
+  .header__menu {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .menu {
+    position: fixed;
+    transform: translatey(-200%);
+    border-radius: 10xp;
+    left: 30%;
+    right: 10px;
+    z-index: 10;
+    -webkit-transform: translatey(-200%);
+    -moz-transform: translatey(-200%);
+    -ms-transform: translatey(-200%);
+    -o-transform: translatey(-200%);
+  }
+
+  .menu--active {
+    transform: translatey(-6%);
+  }
+
+  .menu__list {
+    background-color: rgb(87, 133, 155, 0.9);
+    border: 1px solid rgb(87, 133, 155, 1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    overflow-y: auto
+      /* max-height: 80vh  */
+  }
+
+  .menu__item {
+    width: 100%;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .menu__link {
+    padding: 10px;
+    border-bottom-color: transparent;
+    border-radius: 0;
+    color: black;
+  }
+
+  .menu__item:not(:last-child) .menu__link {
+    border-bottom-color: lightgray;
+  }
+
+  .menu__link:focus {
+    -webkit-box-shadow: inset 0px 0px 5px 5px #D3D3D3;
+    box-shadow: inset 0px 0px 8px 5px #D3D3D3;
+  }
+
+  .menu__link:hover {
+    color: lightgray;
+    border-bottom-color: transparent;
+  }
+
+  .menu__link:active {
+    color: #000000;
+    background-color: #c3c9c8;
+  }
+
+  .menu-btn {
+    display: flex;
+    position: fixed;
+  }
+
+  .content__icon {
+    width: 15px;
+    min-height: 50px;
+    margin-bottom: 70px;
+  }
+
+  .content__name {
+    font-size: 150px;
+  }
+
+  /* ---about------ */
+
+  .about__text p {
+    flex-basis: 51%;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .about__text p:not(:last-child) {
+    margin-bottom: 27px;
+  }
+
+  /* ---get-------- */
+
+  .get__list {
+    display: block;
+  }
+
+  .get__bottom {
+    display: block;
+  }
+
+  .get__item {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .get__item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .get__advantages {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .statistics {
+    max-width: 35%;
+    margin: 0 auto 50px;
+  }
+
+  /* ---serfing---- */
+
+  .numbers {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .numbers .numbers__item {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  /* ---blog------- */
+
+  .blog__link {
+    height: 600px;
+  }
+
+  /* ---footer----- */
+  .footer {
+    min-height: 150px;
+  }
+}
+
+/* ----------media 767 ---------- */
+
+@media (max-width: 767px) {
+
+  /* ---title------ */
+
+  .title {
+    font-size: 28px;
+  }
+
+  /* ---header----- */
+
+  .content__icon {
+    margin-bottom: 40px;
+  }
+
+  .content__name {
+    font-size: 100px;
+  }
+
+  .content__description {
+    font-size: 16px;
+  }
+
+  .menu {
+    left: 10px;
+  }
+
+  /* ---about------ */
+  .about__text p {
+    flex-basis: 400px;
+  }
+
+  /* ---get-------- */
+
+  .get__subtitle {
+    font-size: 18px;
+  }
+
+  .get__item {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .statistics {
+    max-width: 300px;
+    margin: 0 auto 50px;
+  }
+
+  .get__advantages {
+    max-width: 400px;
+  }
+
+  /* ---gallery---- */
+
+  .mix__filters {
+    flex-direction: column;
+    background-color: #b3b6b3;
+    border: 1px solid #b3b6b3;
+    border-radius: 5px;
+    padding: 3px;
+  }
+
+  .mixitup-control-active {
+    outline: transparent;
+  }
+
+  .mix__filter:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .mix__btn {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0;
+  }
+
+  .mix__filter:not(:last-child) .mix__btn {
+    border-bottom: 1px solid #666;
+  }
+
+  .mix__btn:hover,
+  .mix__btn:active {
+    border-radius: 0;
+  }
+
+  .blockquote__inner {
+    font-size: 24px;
+  }
+
+  .video {
+    height: 400px;
+  }
+
+  .video::before {
+    background-size: 60px 60px;
+  }
+
+  .numbers__item {
+    font-size: 35px;
+  }
+
+  /* ---blog------- */
+
+  .blog__text {
+    font-size: 24px;
+  }
+
+  .blog__link {
+    height: 500px;
+  }
+
+  /* ---our-team--- */
+
+  .our-team__block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-team__column {
+    flex-basis: 330px;
+  }
+
+  .our-team__column:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  /* ---services--- */
+
+  .services__block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services__column {
+    flex-basis: 360px;
+  }
+
+  .services__column:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  /* ---feedback--- */
+
+  .feedback__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback__form {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .feedback__inner {
+    padding: 10px;
+  }
+
+  .socials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socials__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .socials__item {
+    min-height: 50px;
+  }
+
+  .socials__link {
+    padding: 10px 0;
+  }
+
+  /* ---footer----- */
+
+  .footer {
+    min-height: 100px;
+  }
+}
+
+/* ----------media 575 ---------- */
+
+@media (max-width: 575px) {
+
+  /* ---header----- */
+
+  .content__name {
+    font-size: 70px;
+  }
+
+  /* ---gallery---- */
+
+  .gallery__button {
+    min-width: 200px;
+  }
+
+  .blockquote {
+    padding: 40px 0 30px;
+  }
+
+  .video {
+    height: 300px;
+  }
+
+  .video::before {
+    background-size: 40px 40px;
+  }
+
+  /* ---blog------- */
+
+  .blog__link {
+    height: 400px;
+  }
+
+  /* ---feedback--- */
+
+  .btn {
+    min-width: 250px;
+  }
+
+  /* ---footer----- */
+
+}
